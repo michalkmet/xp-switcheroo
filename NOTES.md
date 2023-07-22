@@ -30,3 +30,5 @@ Pomodoro 2:
 
 Pomodoro 3:
 - ✅ UAT 3.2: User can pass "ba", it should return "ab"
+- ✅ UAT 4.1: User can pass "abab", it should return "baba"
+- ⚠ TODO UAT 4.2: User can pass "bbbaaa", it should return "aaabbb"

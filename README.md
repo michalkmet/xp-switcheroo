@@ -16,16 +16,16 @@ Example:
 ## Backlog
 
 Story 1: User can pass string with one or more "c", it should return the same string
-- ⚠ TODO UAT 1.1: User can pass "c", it should return "c"
-- ⚠ TODO UAT 1.2: User can pass "ccc", it should return "ccc"
+- ✅ DONE UAT 1.1: User can pass "c", it should return "c"
+- ✅ DONE UAT 1.2: User can pass "ccc", it should return "ccc"
 
 Story 2: User can pass string with two same letters, it should return the same string
-- ⚠ TODO UAT 2.1: User can pass "aa", it should return "bb"
-- ⚠ TODO UAT 2.2: User can pass "bb", it should return "aa"
+- ✅ DONE UAT 2.1: User can pass "aa", it should return "bb"
+- ✅ DONE UAT 2.2: User can pass "bb", it should return "aa"
 
 Story 3: User can pass string with two different letters, it should return the string with switched letters
-- ⚠ TODO UAT 3.1: User can pass "ab", it should return "ba"
-- ⚠ TODO UAT 3.2: User can pass "ba", it should return "ab"
+- ✅ DONE UAT 3.1: User can pass "ab", it should return "ba"
+- ✅ DONE UAT 3.2: User can pass "ba", it should return "ab"
 
 Story 4: User can pass string with many different letters a and b, it should return the string with switched letters
 - ⚠ TODO UAT 4.1: User can pass "abab", it should return "baba"

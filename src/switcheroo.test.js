@@ -26,3 +26,9 @@ describe('Story 3', () => {
     expect(switcheroo('ab')).toBe('ba');
   });
 });
+
+describe('Story 4', () => {
+  it('UAT 4.1: User can pass "abab", it should return "baba"', () => {
+    expect(switcheroo('abab')).toBe('baba');
+  });
+});
