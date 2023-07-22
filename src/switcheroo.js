@@ -1,5 +1,5 @@
 function switcheroo() {
-  return 'hello';
+  return 'c';
 }
 
 module.exports = switcheroo;

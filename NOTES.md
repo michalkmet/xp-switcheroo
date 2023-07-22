@@ -18,3 +18,5 @@ Example:
 Pomodoro 1:
 - ✅ Initial Refactor
 - ✅ User Stories
+- 🚧 UAT 1.1: User can pass "c", it should return "c"
+- ⚠ TODO UAT 1.2: User can pass "ccc", it should return "ccc"

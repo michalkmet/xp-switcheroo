@@ -1,7 +1,7 @@
 const switcheroo = require('./switcheroo');
 
-describe('hello', () => {
-  it('should return hello', () => {
-    expect(switcheroo()).toBe('hello');
+describe('Story 1', () => {
+  it('User can pass "c", it should return "c"', () => {
+    expect(switcheroo('c')).toBe('c');
   });
 });
