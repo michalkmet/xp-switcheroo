@@ -1,4 +1,7 @@
 function switcheroo(inputString) {
+  if (typeof inputString != 'string') {
+    throw new Error('Wrong input');
+  }
   return [...inputString]
     .map((char) => {
       if (char === 'a') {
