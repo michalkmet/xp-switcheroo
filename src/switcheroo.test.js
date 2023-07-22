@@ -35,3 +35,12 @@ describe('Story 4', () => {
     expect(switcheroo('bbbaaa')).toBe('aaabbb');
   });
 });
+
+describe('Story 5', () => {
+  it('UAT 5.1: User can pass "abcab", it should return "bacba"', () => {
+    expect(switcheroo('abcab')).toBe('abcab');
+  });
+  it('UAT 5.2: User can pass "bbbaaca", it should return "aaabbcb"', () => {
+    expect(switcheroo('bbbaaca')).toBe('aaabbcb');
+  });
+});
