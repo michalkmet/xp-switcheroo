@@ -10,10 +10,16 @@ describe('Story 1', () => {
 });
 
 describe('Story 2', () => {
-  it('UAT 2.1: User can pass "aa", it should return "aa"', () => {
-    expect(switcheroo('aa')).toBe('aa');
+  it('UAT 2.1: User can pass "aa", it should return "bb"', () => {
+    expect(switcheroo('aa')).toBe('bb');
   });
-  it('UAT 2.2: User can pass "bb", it should return "bb"', () => {
-    expect(switcheroo('bb')).toBe('bb');
+  it('UAT 2.2: User can pass "bb", it should return "aa"', () => {
+    expect(switcheroo('bb')).toBe('aa');
+  });
+});
+
+describe('Story 3', () => {
+  it('UAT 3.1: User can pass "ab", it should return "ba"', () => {
+    expect(switcheroo('ab')).toBe('ba');
   });
 });
