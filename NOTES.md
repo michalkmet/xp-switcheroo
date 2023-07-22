@@ -21,4 +21,4 @@ Pomodoro 1:
 - ✅ UAT 1.1: User can pass "c", it should return "c"
 - ✅ UAT 1.2: User can pass "ccc", it should return "ccc"
 - ✅ UAT 2.1: User can pass "aa", it should return "aa"
-- ⚠ TODO UAT 2.2: User can pass "bb", it should return "bb"
+- ✅ UAT 2.2: User can pass "bb", it should return "bb"
