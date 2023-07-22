@@ -33,4 +33,4 @@ Pomodoro 3:
 - ✅ UAT 4.1: User can pass "abab", it should return "baba"
 - ✅ UAT 4.2: User can pass "bbbaaa", it should return "aaabbb"
 - ✅ UAT 5.1: User can pass "abcab", it should return "bacba"
-- ⚠ TODO UAT 5.2: User can pass "bbbaaca", it should return "aaabbcb"
+- 🚧 UAT 5.2: User can pass "bbbaaca", it should return "aaabbcb"

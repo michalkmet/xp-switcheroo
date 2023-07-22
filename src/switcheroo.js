@@ -1,8 +1,4 @@
 function switcheroo(inputString) {
-  if (inputString.includes('c')) {
-    return inputString;
-  }
-
   return [...inputString]
     .map((char) => {
       if (char === 'a') {
