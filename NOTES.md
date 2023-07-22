@@ -17,4 +17,4 @@ Example:
 
 Pomodoro 1:
 - ✅ Initial Refactor
-- ⚠ TODO User Stories
+- ✅ User Stories
