@@ -3,8 +3,16 @@ function switcheroo(inputString) {
     return inputString;
   }
 
-  const reg = '/a/g';
-  return inputString.replace(reg, 'b');
+  return [...inputString]
+    .map((char) => {
+      if (char === 'a') {
+        char = 'b';
+      } else if (char === 'b') {
+        char = 'a';
+      }
+      return char;
+    })
+    .join('');
 }
 
 module.exports = switcheroo;
