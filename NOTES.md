@@ -36,4 +36,4 @@ Pomodoro 3:
 - ✅ UAT 5.2: User can pass "bbbaaca", it should return "aaabbcb"
 - ✅ UAT 6.1: User can pass null, it should return an exception
 - ✅ UAT 6.2: User can pass "", it should return an exception
-- ⚠ TODO UAT 6.3: User can pass "rtk", it should return an exception
+- ✅ UAT 6.3: User can pass "rtk", it should return an exception

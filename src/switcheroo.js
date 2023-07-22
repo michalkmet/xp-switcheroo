@@ -1,5 +1,5 @@
 function switcheroo(inputString) {
-  if (typeof inputString != 'string' || inputString.length === 0) {
+  if (!isValid(inputString)) {
     throw new Error('Wrong input');
   }
   return [...inputString]
@@ -14,4 +14,17 @@ function switcheroo(inputString) {
     .join('');
 }
 
+function isValid(inputString) {
+  if (typeof inputString != 'string' ||
+      inputString.length === 0 ||
+      (
+        !inputString.includes('a') &&
+        !inputString.includes('b') && 
+        !inputString.includes('c')
+      )
+    ) {
+    return false;
+  }
+  return true;
+}
 module.exports = switcheroo;
