@@ -23,4 +23,5 @@ Pomodoro 1:
 - ✅ UAT 2.1: User can pass "aa", it should return "bb"
 - ✅ UAT 2.2: User can pass "bb", it should return "aa"
 - 🚧 UAT 3.1: User can pass "ab", it should return "ba"
+- logic error in stories
 - ⚠ TODO UAT 3.2: User can pass "ba", it should return "ab"
