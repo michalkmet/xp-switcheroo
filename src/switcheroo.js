@@ -1,8 +1,8 @@
 function switcheroo(inputString) {
-  if (inputString === 'ccc') {
-    return 'ccc';
+  if (inputString.includes('c')) {
+    return inputString;
   }
-  return 'c';
+  return inputString;
 }
 
 module.exports = switcheroo;

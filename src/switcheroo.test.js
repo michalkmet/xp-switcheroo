@@ -8,3 +8,9 @@ describe('Story 1', () => {
     expect(switcheroo('ccc')).toBe('ccc');
   });
 });
+
+describe('Story 2', () => {
+  it('UAT 2.1: User can pass "aa", it should return "aa"', () => {
+    expect(switcheroo('aa')).toBe('aa');
+  });
+});
