@@ -49,4 +49,7 @@ describe('Story 6', () => {
   it('UAT 6.1: User can pass null, it should return an exception', () => {
     expect(() => switcheroo(null)).toThrow('Wrong input');
   });
+  it('UAT 6.2: User can pass "", it should return an exception', () => {
+    expect(() => switcheroo('')).toThrow('Wrong input');
+  });
 });

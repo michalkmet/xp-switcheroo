@@ -1,5 +1,5 @@
 function switcheroo(inputString) {
-  if (typeof inputString != 'string') {
+  if (typeof inputString != 'string' || inputString.length === 0) {
     throw new Error('Wrong input');
   }
   return [...inputString]
